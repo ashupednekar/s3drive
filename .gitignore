@@ -1,0 +1,37 @@
+# Rust artifacts
+/target
+**/*.rs.bk
+
+# Tauri build artifacts
+/src-tauri/target/
+/src-tauri/.cargo/
+/src-tauri/.packages/
+/src-tauri/tauri.conf.json.bk
+
+# macOS files
+.DS_Store
+
+# Linux files
+*.swp
+*.swo
+
+# Windows files
+Thumbs.db
+
+# Tauri release builds
+/src-tauri/bundle/
+
+# If you use template engine and generate HTML
+/dist/
+/public/
+
+# Logs
+logs/
+*.log
+
+# VSCode settings
+.vscode/
+
+# dotenv / secrets
+.env
+.env.*
